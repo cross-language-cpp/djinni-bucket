@@ -25,3 +25,19 @@ djinni generator version 1.4.1
 ```
 
 (or whatever the current version is)
+
+## Java / JDK installation
+
+To run `djinni`, you need a JDK installation.
+
+If you do not have one, [scoop.sh](https://scoop.sh/) might be the most comfortable way to install one.
+
+Example:
+
+```sh
+scoop bucket add java
+scoop install microsoft-lts-jdk
+```
+
+There are other jdks, like the openjdk, also available.
+For more information, see the [scoop java wiki](https://github.com/ScoopInstaller/Java/wiki)
